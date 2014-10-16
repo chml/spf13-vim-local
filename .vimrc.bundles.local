@@ -1,1 +1,2 @@
 Bundle 'jamescarr/snipmate-nodejs'
+UnBundle 'spf13/vim-autoclose'

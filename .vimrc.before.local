@@ -1,0 +1,2 @@
+" autoclose 和 输入法有冲突
+let g:autoclose_on=0
