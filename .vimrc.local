@@ -4,5 +4,6 @@ set lines=40 columns=110
 set guioptions-=L
 
 " 输入法
-se noimd
-se ims=1
+set noimdisable
+autocmd! InsertLeave * set imdisable|set iminsert=0
+autocmd! InsertEnter * set noimdisable|set iminsert=0
