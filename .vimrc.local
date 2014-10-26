@@ -4,6 +4,9 @@ set lines=40 columns=110
 set guioptions-=L
 set guioptions-=r
 
+" Spell check
+autocmd FileType setlocal nospell
+
 " Input Method
 set noimdisable
 autocmd! InsertLeave * set imdisable|set iminsert=0
