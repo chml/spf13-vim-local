@@ -4,12 +4,17 @@ set lines=40 columns=110
 set guioptions-=L
 set guioptions-=r
 
-" 输入法
+" Input Method
 set noimdisable
 autocmd! InsertLeave * set imdisable|set iminsert=0
 autocmd! InsertEnter * set noimdisable|set iminsert=0
 
-" Auto close
+" Error bell
+set noeb
+set vb t_vb=
+
+" Mappings
+imap <Esc> <Esc><Esc>
 imap {<Return>  {<Return>}<Esc>O
 imap [  []<Esc>i
 imap (  ()<Esc>i
