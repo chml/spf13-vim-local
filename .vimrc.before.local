@@ -1,2 +1,2 @@
-" autoclose 和 输入法有冲突
-let g:autoclose_on=0
+" auto-pair 和 输入法有冲突
+let g:AutoPairs = {'(':')', '[':']', '{':'}', '"':'"', '`':'`'}
