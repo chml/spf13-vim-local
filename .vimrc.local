@@ -1,5 +1,5 @@
 " UI
-set guifont=Source_Code_Pro:h18
+set guifont=Source_Code_Pro_Light:h16
 set lines=40 columns=110
 set guioptions-=L
 set guioptions-=r
@@ -26,3 +26,6 @@ imap <C-n> <Down>
 imap <C-a> <Esc>I
 imap <C-e> <Esc>A
 imap <C-k> <Esc>lDi
+
+" Plugin
+let g:indent_guides_enable_on_vim_startup = 0
