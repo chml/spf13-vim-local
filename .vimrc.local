@@ -30,3 +30,6 @@ imap <Esc> <Esc><Esc>
 " Plugin
 let g:indent_guides_enable_on_vim_startup=0
 set nolist
+
+" Nerdtree
+let NERDTreeQuitOnOpen=0
