@@ -1,2 +1,3 @@
 Bundle 'Keithbsmiley/swift.vim'
 Bundle 'jamescarr/snipmate-nodejs'
+Bundle 'davidhalter/jedi-vim'
