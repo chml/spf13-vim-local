@@ -33,3 +33,6 @@ set nolist
 
 " Nerdtree
 let NERDTreeQuitOnOpen=0
+
+" YouCompleteMe
+nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>

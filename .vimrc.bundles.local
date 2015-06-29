@@ -1,4 +1,2 @@
 Bundle 'Keithbsmiley/swift.vim'
 Bundle 'jamescarr/snipmate-nodejs'
-Bundle 'jiangmiao/auto-pairs'
-UnBundle 'spf13/vim-autoclose'
