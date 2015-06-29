@@ -1,5 +1,5 @@
 " UI
-set guifont=Source_Code_Pro:h18
+set guifont=Source_Code_Pro_light:h16
 set lines=40 columns=110
 set guioptions-=L
 set guioptions-=r
