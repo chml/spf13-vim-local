@@ -4,6 +4,11 @@ set lines=40 columns=110
 set guioptions-=L
 set guioptions-=r
 
+set shiftwidth=2                " Use indents of 4 spaces
+set tabstop=2                   " An indentation every four columns
+set softtabstop=2               " Let backspace delete indent
+set expandtab                   " Tabs are spaces, not tabs
+
 " Spell check
 autocmd! FileType * set nospell
 
