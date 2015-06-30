@@ -1,5 +1,5 @@
 " UI
-set guifont=Source_Code_Pro_light:h16
+set guifont=Source_Code_Pro:h18
 set lines=40 columns=110
 set guioptions-=L
 set guioptions-=r
@@ -41,3 +41,4 @@ let NERDTreeQuitOnOpen=0
 
 " YouCompleteMe
 nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
