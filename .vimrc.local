@@ -40,5 +40,8 @@ set nolist
 let NERDTreeQuitOnOpen=0
 
 " YouCompleteMe
-nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_confirm_extra_conf = 0
 nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
+nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <leader>gd :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>gt :YcmCompleter GetType<CR>
