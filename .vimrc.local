@@ -41,6 +41,11 @@ let NERDTreeQuitOnOpen=0
 let NERDTreeIgnore=[ '.DS_Store', '\.pyc$' ]
 nnoremap <leader><C-j> :NERDTreeFind<CR>
 
+" CtrlP
+let g:ctrlp_custom_ignore = {
+      \ 'dir':  '\.git$\|\.hg$\|\.svn$',
+      \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|DS_Store' }
+
 " YouCompleteMe
 let g:ycm_confirm_extra_conf = 0
 nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
