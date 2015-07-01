@@ -38,7 +38,7 @@ set nolist
 
 " Nerdtree
 let NERDTreeQuitOnOpen=0
-let NERDTreeIgnore=[ '.DS_Store' ]
+let NERDTreeIgnore=[ '.DS_Store', '\.pyc$' ]
 nnoremap <leader><C-j> :NERDTreeFind<CR>
 
 " YouCompleteMe
