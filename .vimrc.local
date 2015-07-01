@@ -38,6 +38,7 @@ set nolist
 
 " Nerdtree
 let NERDTreeQuitOnOpen=0
+nnoremap <leader><C-j> :NERDTreeFind<CR>
 
 " YouCompleteMe
 let g:ycm_confirm_extra_conf = 0
