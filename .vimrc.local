@@ -43,8 +43,8 @@ nnoremap <leader><C-j> :NERDTreeFind<CR>
 
 " CtrlP
 let g:ctrlp_custom_ignore = {
-      \ 'dir':  '\.git$\|\.hg$\|\.svn$',
-      \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.DS_Store\|\.pyc$' }
+      \ 'dir':  '\.git$\|\.hg$\|\.svn$\|^CMakeFiles$',
+      \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.DS_Store' }
 
 " YouCompleteMe
 let g:ycm_confirm_extra_conf = 0
