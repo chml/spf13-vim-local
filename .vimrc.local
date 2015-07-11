@@ -42,8 +42,9 @@ let NERDTreeIgnore=[ '\.DS_Store', '\.pyc$' ]
 nnoremap <leader><C-j> :NERDTreeFind<CR>
 
 " CtrlP
+unlet g:ctrlp_custom_ignore
 let g:ctrlp_custom_ignore = {
-      \ 'dir':  '\.git$\|\.hg$\|\.svn$\|^CMakeFiles$',
+      \ 'dir':  '\.git$\|\.hg$\|\.svn$\|CMakeFiles/',
       \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.DS_Store' }
 
 " YouCompleteMe
