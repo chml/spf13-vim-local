@@ -53,7 +53,13 @@ nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
 nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>gd :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gt :YcmCompleter GetType<CR>
+
+" remap Ultisnips for compatibility for YCM
+let g:UltiSnipsExpandTrigger = '<C-k>'
+let g:UltiSnipsJumpForwardTrigger = '<C-k>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-j>'
 let g:UltiSnipsExpandTrigger = "<nop>"
+
 let g:ulti_expand_or_jump_res = 0
 function ExpandSnippetOrCarriageReturn()
   let snippet = UltiSnips#ExpandSnippetOrJump()
