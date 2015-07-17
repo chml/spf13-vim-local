@@ -3,7 +3,13 @@ set guifont=Source_Code_Pro:h18
 set lines=40 columns=110
 set guioptions-=L
 set guioptions-=r
+" Solarized
+let g:solarized_bold=0
+let g:solarized_underline=0
 let g:solarized_termcolors=16
+let g:solarized_termtrans=1
+let g:solarized_constrast="low"
+let g:solarized_visibility="low"
 color solarized
 
 set shiftwidth=2                " Use indents of 4 spaces
