@@ -22,6 +22,7 @@ set shiftwidth=2                " Use indents of 4 spaces
 set tabstop=2                   " An indentation every four columns
 set softtabstop=2               " Let backspace delete indent
 set expandtab                   " Tabs are spaces, not tabs
+set cino=N-1s                      " No CPP namespace indent
 
 " Spell check
 autocmd! FileType * set nospell
@@ -56,7 +57,6 @@ let g:ctrlp_custom_ignore = {
 
 " YouCompleteMe
 let g:ycm_confirm_extra_conf = 0
-nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
 nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>gd :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gt :YcmCompleter GetType<CR>
