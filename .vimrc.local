@@ -22,7 +22,7 @@ set shiftwidth=2                " Use indents of 4 spaces
 set tabstop=2                   " An indentation every four columns
 set softtabstop=2               " Let backspace delete indent
 set expandtab                   " Tabs are spaces, not tabs
-set cino=N-1s                      " No CPP namespace indent
+set cino=N-1s,g-1s              " CPP indenting
 
 " Spell check
 autocmd! FileType * set nospell
