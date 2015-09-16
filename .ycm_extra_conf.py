@@ -72,6 +72,23 @@ flags = [
 '.',
 ]
 
+recursive_flags = [
+    './src/',
+    './vendors/',
+]
+
+def AddDirsRecursively(recs_flags):
+    global flags
+    new_flags = []
+    for flag in recs_flags:
+        for d in glob.glob(flag):
+            if os.path.isdir(d):
+                new_flags.append('-I')
+                new_flags.append(d)
+    flags += new_flags
+
+AddDirsRecursively(recursive_flags)
+
 
 # Set this to the absolute path to the folder (NOT the file!) containing the
 # compile_commands.json file to use that instead of 'flags'. See here for
