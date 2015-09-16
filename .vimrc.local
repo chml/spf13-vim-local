@@ -79,3 +79,6 @@ function ExpandSnippetOrCarriageReturn()
   endif
 endfunction
 inoremap <expr> <CR> pumvisible() ? "<C-R>=ExpandSnippetOrCarriageReturn()<CR>" : "\<CR>"
+
+" tagbar
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
