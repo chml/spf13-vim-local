@@ -1,2 +1,4 @@
 Bundle 'Keithbsmiley/swift.vim'
 Bundle 'davidhalter/jedi-vim'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-lua-ftplugin'

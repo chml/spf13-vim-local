@@ -57,6 +57,8 @@ let g:ctrlp_custom_ignore = {
       \ 'dir':  '\.git$\|\.hg$\|\.svn$\|CMakeFiles$',
       \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$\|\.DS_Store\|CMakeCache\.txt$\|\.cmake$' }
 
+let g:ctrlp_user_command = 'find %s -type f | grep -v "`cat .ctrlpignore`"'
+
 " YouCompleteMe
 let g:ycm_confirm_extra_conf = 0
 nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
